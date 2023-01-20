@@ -4,6 +4,7 @@ require_relative 'boot'
 require "rails"
 require "active_storage/engine"
 require 'action_mailer/railtie'
+require "action_cable/engine"
 
 Bundler.require(*Rails.groups)
 
