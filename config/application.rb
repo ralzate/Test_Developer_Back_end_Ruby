@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'boot'
-require "rails"
+require 'rails/all'
 require "active_storage/engine"
 require 'action_mailer/railtie'
 require "action_cable/engine"
