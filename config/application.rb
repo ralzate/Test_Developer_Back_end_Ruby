@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
 require_relative 'boot'
-require 'rails/all'
+require "rails"
+require "active_storage/engine"
+require 'action_mailer/railtie'
 
 Bundler.require(*Rails.groups)
 
