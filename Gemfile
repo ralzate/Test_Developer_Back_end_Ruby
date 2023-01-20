@@ -13,7 +13,7 @@ gem 'mini_racer', platforms: :ruby
 gem 'puma'
 gem 'rails'
 gem 'sass-rails'
-gem 'sqlite3'
+gem 'pg'
 gem 'webpacker'
 gem 'bootstrap-will_paginate'
 gem 'will-paginate-i18n'
