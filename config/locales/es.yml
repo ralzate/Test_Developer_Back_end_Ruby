@@ -1,0 +1,11 @@
+es:
+  will_paginate:
+    next_label: Siguiente
+    previous_label: Atrás
+  searches:
+    index:
+      submit: Buscar
+      query: Escribe una frase o palabra
+    list:
+      no_results: No hay resultados
+      total_results: Resultados en total

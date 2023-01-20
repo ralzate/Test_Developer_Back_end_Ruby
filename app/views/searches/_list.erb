@@ -1,0 +1,37 @@
+<% if records_found.empty? %>
+  <span>
+    <%= t('.no_records_found') %>
+  </span>
+<% else %>
+  <span>
+    <%= t('.total_records_found') %>
+    <b>
+      <%= records_found.total_entries %>
+    </b>
+  </span>
+  <br/>
+  <br/>
+  <table class="table table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% records_found.each do |element| %>
+        <tr>
+          <td class="d-flex justify-content-center">
+            <%= element.query %>
+          </td>
+          <td>
+            <%= element.value %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+  <%= will_paginate records_found, renderer: WillPaginateLinkRenderer %>
+<% end %>
+
+

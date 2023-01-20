@@ -1,0 +1,7 @@
+en:
+  searches:
+    index:
+      submit: Search
+    list:
+      no_results: No results
+      total_results: Total results
