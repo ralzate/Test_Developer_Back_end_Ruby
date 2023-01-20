@@ -15,7 +15,7 @@ gem 'rails'
 gem 'sass-rails'
 gem 'sqlite3'
 gem 'webpacker'
-gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 gem 'will-paginate-i18n'
 
 group :development, :test do
